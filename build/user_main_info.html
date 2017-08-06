@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link href="./css/app.css" rel="stylesheet">
+    <title>Ой Ши</title>
+</head>
+<body>
+<header>
+<div class="row collapse align-justify">
+	<div class="column large-3 medium-4 small-order-2 medium-order-1 small-6">
+		<a href="#" class="logo"></a>
+	</div>
+	<div class="column large-9 medium-8 small-order-3 medium-order-2 small-4">
+		<ul class="menu">
+		  <li class="hide-for-small-only"><a href="/OiShi/build/menu.html">Меню</a></li>
+		  <li class="hide-for-small-only"><a href="/OiShi/build/akcii.html">Акции</a></li>
+		  <li class="hide-for-small-only"><a href="/OiShi/build/contacts.html">Контакты</a></li>
+		  <li class="hide-for-small-only hide-for-medium-only"><a href="/OiShi/build/o_nas.html">О нас</a></li>
+		  <li class="hide-for-small-only hide-for-medium-only"><a href="/OiShi/build/otzivu.html">Отзывы</a></li>
+		  <li><a href="#" class="dots" data-toggle="drop-menu"></a></li>
+		</ul>
+		<div class="dropdown-pane" id="drop-menu" data-dropdown data-close-on-click="true">
+			<a href="#">О нас</a><br>
+			<a href="#">Отзывы</a><br>
+			<a href="#">Доставка и оплата</a><br>
+		</div>
+	</div>
+	
+	<div class="column large-6 medium-5 small-order-2 medium-order-3 hide-for-small-only">
+		<p class="work-time" data-toggle="work-t"><u>В среду</u> работаем<br class="hide-for-large"> с 11:00 до 00:00</p>
+		<div class="dropdown-pane" id="work-t" data-dropdown data-close-on-click="true">
+			<span data-time="<u>В Понедельник</u> работаем<br class='hide-for-large'> с 11:00 до 00:00">Понедельник</span>
+			<span data-time="<u>Во Вторник</u> работаем<br class='hide-for-large'> с 11:00 до 00:00">Вторник</span>
+			<span data-time="<u>В Среду</u> работаем<br class='hide-for-large'> с 11:00 до 00:00" class="bold">Среда</span>
+			<span data-time="<u>В Четверг</u> работаем<br class='hide-for-large'> с 11:00 до 00:00">Четверг</span>
+			<span data-time="<u>В Пятницу</u> работаем<br class='hide-for-large'> с 11:00 до 00:00">Пятница</span>
+			<span class="color-t" data-time="<u>В Субботу</u> работаем<br class='hide-for-large'> с 11:00 до 00:00">Суббота</span>
+			<span class="color-t" data-time="<u>В Воскресенье</u> работаем<br class='hide-for-large'> с 11:00 до 00:00">Воскресенье</span>
+		</div>
+	</div>
+	<div class="column large-3 medium-3 small-order-1 medium-order-4 small-8">
+		<strong class="phone">
+			<span class="show-for-small-only">Позвонить</span> 
+			<span class="hide-for-small-only">+7 846 201-31-40</span>
+		</strong>
+
+	</div>
+	<div class="column large-3 medium-4 small-order-4 medium-order-5 small-6 text-right">
+		<button class="logIn hide-for-small-only" onclick="document.location='/OiShi/build/sign_in.html'" style="display: none;">ВОЙТИ</button>
+		<a href="#" class="user">
+		<span class="float-right" data-toggle="drop-user" onclick="document.location='/OiShi/build/user_main.html'">
+			<img src="./img/img-1.png">
+		</span>
+			
+		</a>
+		<a href="#" class="cart" data-toggle="drop-cart">4</a> 
+		<div class="dropdown-pane bottom" id="drop-user" data-dropdown data-close-on-click="true">
+			<div>
+				<img src="./img/img-1.png">
+				<strong>Александрий<br> Санктпетербургов</strong>
+			</div>
+			<hr>
+			<div class="drop-user-f align-justify">
+				<a href="#">Личный кабинет</a>
+				<a href="#">Выйти</a>
+			</div>
+		</div>
+		<div class="dropdown-pane bottom" id="drop-cart" data-dropdown data-close-on-click="true">
+			<div class="row">
+				<div class="column small-24 medium-18">
+					<div class="row basket-prew">
+				<div class="column small-8 medium-4">
+				<img src="./img/img-2.png">
+				</div>
+				<div class="column small-8 medium-15 text-center">
+				<span class="buy-item">Филадельфия с угрем</span>
+									<div class="counter">
+										<a href="#" class="min"></a>
+										<span class="sum">1 шт.</span>
+										<a href="#" class="max"></a>
+									</div>
+				</div>
+				<div class="column small-8 medium-5 text-right">
+					<div class="stoimost">270  <span class="rouble">q</span></div>
+					<div class="foto-close"></div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<div class="row basket-prew">
+				<div class="column small-8 medium-4">
+				<img src="./img/img-2.png">
+				</div>
+				<div class="column small-8 medium-15 text-center">
+				<span class="buy-item">Филадельфия с угрем</span>
+									<div class="counter">
+										<a href="#" class="min"></a>
+										<span class="sum">1 шт.</span>
+										<a href="#" class="max"></a>
+									</div>
+				</div>
+				<div class="column small-8 medium-5 text-right">
+					<div class="stoimost">270  <span class="rouble">q</span></div>
+					<div class="foto-close"></div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<div class="row basket-prew">
+				<div class="column small-8 medium-4">
+				<img src="./img/img-2.png">
+				</div>
+				<div class="column small-8 medium-15 text-center">
+				<span class="buy-item">Филадельфия с угрем</span>
+									<div class="counter">
+										<a href="#" class="min"></a>
+										<span class="sum">1 шт.</span>
+										<a href="#" class="max"></a>
+									</div>
+				</div>
+				<div class="column small-8 medium-5 text-right">
+					<div class="stoimost">270  <span class="rouble">q</span></div>
+					<div class="foto-close"></div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<div class="row basket-prew">
+				<div class="column small-8 medium-4">
+				<img src="./img/img-2.png">
+				</div>
+				<div class="column small-8 medium-15 text-center">
+				<span class="buy-item">Филадельфия с угрем</span>
+									<div class="counter">
+										<a href="#" class="min"></a>
+										<span class="sum">1 шт.</span>
+										<a href="#" class="max"></a>
+									</div>
+				</div>
+				<div class="column small-8 medium-5 text-right">
+					<div class="stoimost">270  <span class="rouble">q</span></div>
+					<div class="foto-close"></div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<hr>
+			<div class="row">
+				<div class="column small-12 text-left">
+					<input type="button" class="sign-in-btn" value="Оформить заказ">
+				</div>
+				<div class="column small-12 text-right">
+					<span class="light-text">Итого:</span>
+					<span class="mr">270  <span class="rouble">q</span></span>
+				</div>
+			</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</header>
+<main class="content user-main">
+	<div class="row">
+		<div class="column small-24">
+			<nav aria-label="You are here:" role="navigation">
+			  <ul class="breadcrumbs">
+			    <li><a href="#">Главная</a></li>
+			    <li><a href="#">Личный кабинет</a></li>
+			    <!-- <li class="disabled">Gene Splicing</li>
+			    <li>
+			      <span class="show-for-sr">Current: </span> Cloning
+			    </li> -->
+			  </ul>
+			</nav>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column small-24 text-center">
+			<h2>Заказ #1233</h2>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column small-24">
+			<span>Дата:</span>
+			<strong>12 апреля 2017,</strong>
+			<br class="show-for-small-only">
+			<span>Текущий статус:</span>
+			<strong>Исполнен</strong>
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="column small-24">
+			<h4>Информация о заказе</h4>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="column small-13 medium-8">
+			<strong class="buy-item">Сет Филадельфия х 1</strong>
+		</div>
+		<div class="column small-11 medium-16">
+			<span>885 <span class="rouble">q</span></span>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="column small-13 medium-8">
+			<strong class="buy-item">Салат Чукка х 1</strong>
+		</div>
+		<div class="column small-11 medium-16">
+			<span>220 <span class="rouble">q</span></span>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="column small-13 medium-8">
+			<strong class="buy-item">Итого:</strong>
+		</div>
+		<div class="column small-11 medium-16">
+			<span>1105 <span class="rouble">q</span></span>
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="column small-24">
+			<input type="button" class="sign-in-btn left" value="Заказать снова"><br class="show-for-small-only">
+			<a href="#" class="light-text back">Назад в личный кабинет &larr;</a>
+		</div>
+	</div>
+</main>
+
+<footer>
+	<div class="row collapse">
+		<div class="column small-24 medium-12 large-10">
+		<ul class="menu">
+		  <li class=""><a href="#">Меню</a></li>
+		  <li class=""><a href="#">Акции</a></li>
+		  <li class=""><a href="#">О нас</a></li>
+		  <li class=""><a href="#">отзывы</a></li>
+		  <li class=""><a href="#">ДОСТАВКА И ОПЛАТА</a></li>
+		  <li><a href="#">Контакты</a></li>
+		</ul>
+		</div>
+		<div class="column small-24 medium-4 medium-offset-4 large-4 large-offset-6">
+			<span>+7 (846) 201-31-40</span>
+		</div>
+		<div class="column small-24 medium-4 large-4">
+			<span>+7 937 203-83-29</span>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column small-24">
+			<hr>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column small-24 medium-17 large-18">
+			<p>2013-2017, «Ойши» — Бесплатная доставка суши и роллов, Самара. Все права защищены.</p>
+			<p class="hide-for-small-only"><a href="#" class="link-l">Напишите нам</a> если у вас возникли замечания и предложения по работе сайта.</p>
+		</div>
+		<div class="column small-24 medium-7 large-6">
+			<a href="#" class="link">Пользовательское соглашение</a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column small-24">
+			<div class="social">
+				<a href="#" class="ut"></a>
+				<a href="#" class="vk"></a>
+				<a href="#" class="ig"></a>
+				<a href="#" class="fb"></a>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column small-24 text-center show-for-small-only">
+			<a href="#" class="site-map">Карта сайта</a>
+		</div>
+	</div>
+</footer>
+<script src="./js/bundle.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0zM5RK-2gt3vhzkXIZNpA8QLoPrgerhk"></script>
+</body>
+</html>

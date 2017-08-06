@@ -1,0 +1,65 @@
+//= template/header.html
+<main class="content contacts">
+<div class="row hide-for-small-only">
+	<div class="column small-24">
+		<nav aria-label="You are here:" role="navigation">
+		  <ul class="breadcrumbs">
+		    <li><a href="#">Главная</a></li>
+		    <li><a href="#"></a></li>
+		    <!-- <li class="disabled">Gene Splicing</li>
+		    <li>
+		      <span class="show-for-sr">Current: </span> Cloning
+		    </li> -->
+		  </ul>
+		</nav>
+	</div>
+</div>
+<div class="row">
+	<div class="column small-24 text-center">
+		<h2>Контакты</h2>
+	</div>
+</div>
+<br>
+<div class="row">
+	<div class="column small-24 medium-8">
+		<strong>Контактные телефоны</strong>
+		<span class="cb-text">+7 (846) 201-31-40</span><br>
+		<span class="cb-text">+7 937 203-83-29</span>
+	</div>
+	<div class="column small-24 medium-8 contact-drop">
+		<strong>Режим работы:</strong>
+		
+		<p class="light-text">
+			Пн. — Чт.
+			<a href="#" onclick="return false" data-toggle="work-contact" id="work-day">Пятница</a>
+			Сб. — Вск.
+		</p>
+		<br>
+		<span class="cb-text" id="time-line">с 11:00 до 0:00</span>
+		<div class="dropdown-pane" id="work-contact" data-dropdown data-close-on-click="true">
+			<span data-time="Понедельник" data-hour="с 11:00 до 0:00">Понедельник</span>
+			<span data-time="Вторник" data-hour="с 10:00 до 0:00">Вторник</span>
+			<span data-time="Среду" data-hour="с 12:00 до 0:00">Среда</span>
+			<span data-time="Четверг" data-hour="с 13:00 до 0:00">Четверг</span>
+			<span data-time="Пятницу" class="bold" data-hour="с 14:00 до 0:00">Пятница</span>
+			<span class="color-t" data-time="Субботу" data-hour="с 15:00 до 0:00">Суббота</span>
+			<span class="color-t" data-time="Воскресенье" data-hour="с 16:00 до 0:00">Воскресенье</span>
+		</div>
+	</div>
+	<div class="column small-24 medium-8">
+		<strong>Мы в социальных сетях:</strong>
+		<div class="social">
+				<a href="#" class="ut"></a>
+				<a href="#" class="vk"></a>
+				<a href="#" class="ig"></a>
+				<a href="#" class="fb"></a>
+			</div>
+	</div>
+</div>
+<br>
+<br>
+<section id="google-map">
+    <div id="google-container"></div>
+</section>
+</main>
+//= template/footer.html

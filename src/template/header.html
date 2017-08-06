@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+    <link href="./css/app.css" rel="stylesheet">
+    <title>Ой Ши</title>
+</head>
+<body>
+<header>
+<div class="row collapse align-justify">
+	<div class="column large-3 medium-4 small-order-2 medium-order-1 small-6">
+		<a href="#" class="logo"></a>
+	</div>
+	<div class="column large-9 medium-8 small-order-3 medium-order-2 small-4">
+		<ul class="menu">
+		  <li class="hide-for-small-only"><a href="/OiShi/build/menu.html">Меню</a></li>
+		  <li class="hide-for-small-only"><a href="/OiShi/build/akcii.html">Акции</a></li>
+		  <li class="hide-for-small-only"><a href="/OiShi/build/contacts.html">Контакты</a></li>
+		  <li class="hide-for-small-only hide-for-medium-only"><a href="/OiShi/build/o_nas.html">О нас</a></li>
+		  <li class="hide-for-small-only hide-for-medium-only"><a href="/OiShi/build/otzivu.html">Отзывы</a></li>
+		  <li><a href="#" class="dots" data-toggle="drop-menu"></a></li>
+		</ul>
+		<div class="dropdown-pane" id="drop-menu" data-dropdown data-close-on-click="true">
+			<a href="#">О нас</a><br>
+			<a href="#">Отзывы</a><br>
+			<a href="#">Доставка и оплата</a><br>
+		</div>
+	</div>
+	
+	<div class="column large-6 medium-5 small-order-2 medium-order-3 hide-for-small-only">
+		<p class="work-time" data-toggle="work-t"><u>В среду</u> работаем<br class="hide-for-large"> с 11:00 до 00:00</p>
+		<div class="dropdown-pane" id="work-t" data-dropdown data-close-on-click="true">
+			<span data-time="<u>В Понедельник</u> работаем<br class='hide-for-large'> с 11:00 до 00:00">Понедельник</span>
+			<span data-time="<u>Во Вторник</u> работаем<br class='hide-for-large'> с 11:00 до 00:00">Вторник</span>
+			<span data-time="<u>В Среду</u> работаем<br class='hide-for-large'> с 11:00 до 00:00" class="bold">Среда</span>
+			<span data-time="<u>В Четверг</u> работаем<br class='hide-for-large'> с 11:00 до 00:00">Четверг</span>
+			<span data-time="<u>В Пятницу</u> работаем<br class='hide-for-large'> с 11:00 до 00:00">Пятница</span>
+			<span class="color-t" data-time="<u>В Субботу</u> работаем<br class='hide-for-large'> с 11:00 до 00:00">Суббота</span>
+			<span class="color-t" data-time="<u>В Воскресенье</u> работаем<br class='hide-for-large'> с 11:00 до 00:00">Воскресенье</span>
+		</div>
+	</div>
+	<div class="column large-3 medium-3 small-order-1 medium-order-4 small-8">
+		<strong class="phone">
+			<span class="show-for-small-only">Позвонить</span> 
+			<span class="hide-for-small-only">+7 846 201-31-40</span>
+		</strong>
+
+	</div>
+	<div class="column large-3 medium-4 small-order-4 medium-order-5 small-6 text-right">
+		<button class="logIn hide-for-small-only" onclick="document.location='/OiShi/build/sign_in.html'" style="display: none;">ВОЙТИ</button>
+		<a href="#" class="user">
+		<span class="float-right" data-toggle="drop-user" onclick="document.location='/OiShi/build/user_main.html'">
+			<img src="./img/img-1.png">
+		</span>
+			
+		</a>
+		<a href="#" class="cart" data-toggle="drop-cart">4</a> 
+		<div class="dropdown-pane bottom" id="drop-user" data-dropdown data-close-on-click="true">
+			<div>
+				<img src="./img/img-1.png">
+				<strong>Александрий<br> Санктпетербургов</strong>
+			</div>
+			<hr>
+			<div class="drop-user-f align-justify">
+				<a href="#">Личный кабинет</a>
+				<a href="#">Выйти</a>
+			</div>
+		</div>
+		<div class="dropdown-pane bottom" id="drop-cart" data-dropdown data-close-on-click="true">
+			<div class="row">
+				<div class="column small-24 medium-18">
+					<div class="row basket-prew">
+				<div class="column small-8 medium-4">
+				<img src="./img/img-2.png">
+				</div>
+				<div class="column small-8 medium-15 text-center">
+				<span class="buy-item">Филадельфия с угрем</span>
+									<div class="counter">
+										<a href="#" class="min"></a>
+										<span class="sum">1 шт.</span>
+										<a href="#" class="max"></a>
+									</div>
+				</div>
+				<div class="column small-8 medium-5 text-right">
+					<div class="stoimost">270  <span class="rouble">q</span></div>
+					<div class="foto-close"></div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<div class="row basket-prew">
+				<div class="column small-8 medium-4">
+				<img src="./img/img-2.png">
+				</div>
+				<div class="column small-8 medium-15 text-center">
+				<span class="buy-item">Филадельфия с угрем</span>
+									<div class="counter">
+										<a href="#" class="min"></a>
+										<span class="sum">1 шт.</span>
+										<a href="#" class="max"></a>
+									</div>
+				</div>
+				<div class="column small-8 medium-5 text-right">
+					<div class="stoimost">270  <span class="rouble">q</span></div>
+					<div class="foto-close"></div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<div class="row basket-prew">
+				<div class="column small-8 medium-4">
+				<img src="./img/img-2.png">
+				</div>
+				<div class="column small-8 medium-15 text-center">
+				<span class="buy-item">Филадельфия с угрем</span>
+									<div class="counter">
+										<a href="#" class="min"></a>
+										<span class="sum">1 шт.</span>
+										<a href="#" class="max"></a>
+									</div>
+				</div>
+				<div class="column small-8 medium-5 text-right">
+					<div class="stoimost">270  <span class="rouble">q</span></div>
+					<div class="foto-close"></div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<div class="row basket-prew">
+				<div class="column small-8 medium-4">
+				<img src="./img/img-2.png">
+				</div>
+				<div class="column small-8 medium-15 text-center">
+				<span class="buy-item">Филадельфия с угрем</span>
+									<div class="counter">
+										<a href="#" class="min"></a>
+										<span class="sum">1 шт.</span>
+										<a href="#" class="max"></a>
+									</div>
+				</div>
+				<div class="column small-8 medium-5 text-right">
+					<div class="stoimost">270  <span class="rouble">q</span></div>
+					<div class="foto-close"></div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<hr>
+			<div class="row">
+				<div class="column small-12 text-left">
+					<input type="button" class="sign-in-btn" value="Оформить заказ">
+				</div>
+				<div class="column small-12 text-right">
+					<span class="light-text">Итого:</span>
+					<span class="mr">270  <span class="rouble">q</span></span>
+				</div>
+			</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</header>

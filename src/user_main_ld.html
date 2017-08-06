@@ -1,0 +1,238 @@
+//= template/header.html
+
+
+<div class="row">
+		<div class="column small-24">
+			<nav aria-label="You are here:" role="navigation">
+			  <ul class="breadcrumbs">
+			    <li><a href="#">Главная</a></li>
+			    <li><a href="#">Личный кабинет</a></li>
+			    <!-- <li class="disabled">Gene Splicing</li>
+			    <li>
+			      <span class="show-for-sr">Current: </span> Cloning
+			    </li> -->
+			  </ul>
+			</nav>
+		</div>
+	</div>
+
+<div class="row text-center user-main" id="tabs">
+		<div class="column small-24 large-5 medium-5 large-offset-4">
+			<span class="sm-head active" data-tab="status-user">Статус заказа</span>
+		</div>
+		<div class="column small-24 large-5 medium-5"><span class="sm-head" data-tab="info-user">Личные данные</span></div>
+		<div class="column small-24 large-8 medium-8">
+		<span class="sm-head" data-tab="edit-user">редактировать личные данные</span>
+		</div>
+</div>
+<br>
+<div class="content user-main" style="display: none;" id="edit-user">
+	<div class="row">
+		<div class="column">
+			<form action="" class="designed-form zakaz">
+				<div class="row">
+					    <div class="medium-3 small-24 columns">
+					      <label class="middle">Ваше имя</label>
+					    </div>
+					    <div class="medium-6 small-24 columns">
+					      <input type="text" placeholder="" value="Константин Константинопольский">
+					    </div>
+				</div>
+				<div class="row">
+				    <div class="medium-3 small-24 columns">
+				      <label class="middle">Телефон</label>
+				    </div>
+				    <div class="medium-6 small-24 columns">
+				      <input type="text" placeholder="+7 (___) ___-__-__" value="+7 (555) 234-23-23">
+				    </div>
+	  			</div>
+	  			<div class="row">
+				    <div class="medium-3 small-24 columns">
+				      <label class="middle">E-mail</label>
+				    </div>
+				    <div class="medium-6 small-24 columns">
+				      <input type="text" placeholder="" value="mail@mail.ru">
+				    </div>
+	  			</div>
+	  			<div class="row">
+				    <div class="medium-3 small-24 columns">
+				      <label class="middle">Адрес</label>
+				    </div>
+				    <div class="medium-6 small-24 columns">
+				      <input type="text" placeholder="" value="ул. Самарская, 55">
+				    </div>
+	  			</div>
+	  			<div class="row">
+				    <div class="medium-3 small-24 columns">
+				    </div>
+				    <div class="medium-6 small-24 columns">
+				      <input type="text" placeholder="" value="кв. 12, 2 этаж, 5 подъезд">
+				    </div>
+	  			</div>
+				<hr>
+				<div class="row">
+					<div class="medium-3 small-24 columns">
+				      <label class="middle">Изменить пароль</label>
+				    </div>
+				    <div class="medium-6 small-24 columns">
+				      <input type="text" placeholder="Новый пароль">
+				    </div>
+			  	</div>
+			  	<div class="row">
+				    <div class="medium-6 small-24 medium-offset-3 columns">
+				      <input type="text" placeholder="Подтвердите пароль">
+				    </div>
+			  	</div>
+			  	<div class="row">
+	  			<div class="column small-24">
+	  				<input type="button" class="sign-in-btn" value="сохранить">
+	  			</div>
+	  		</div>
+			</form>
+		</div>
+	</div>
+	
+</div>
+<div class="content user-main" style="display: none;" id="info-user">
+	<div class="row">
+		<div class="column medium-12 small-24">
+			<strong class="user-name">Константин Констинопольский</strong>
+		</div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="column medium-12 small-24"><strong>Телефон</strong></div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="column medium-12 small-24"><span class="small-head">+7 (555) 322-34-33</span></div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="column medium-12 small-24"><strong>Адрес</strong></div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="column medium-12 small-24"><span class="small-head">ул. Самарская, 55, кв. 12, 2 этаж, 5 подъезд</span></div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="column medium-12 small-24"><span class="light-text">Этот адрес будет использован при оформлении заказа по умолчанию</span></div>
+	</div>
+	<br>
+	<div class="row">
+		<div class="column medium-12 small-24">
+			<input type="button" class="sign-in-btn" value="редактировать">
+		</div>
+	</div>
+</div>
+<div class="content user-main" id="status-user">
+	<div class="row">
+		<div class="column small-24 text-center">
+		<br>
+			<h4>Статус приготовления заказа  #2131</h4>
+		<br>
+		</div>
+	</div>
+	<div class="row collapse b-status">
+		<div class="column small-24 medium-8">
+			<div class="stat-wrap active">
+				<strong>Заказ принят</strong>
+				<p>Заказ принят, оператор проверяет данные и передает на кухню</p>
+			</div>
+		</div>
+		<div class="column small-24 medium-8">
+			<div class="stat-wrap">
+				<strong>На кухне</strong>
+				<p>Заказ принят, оператор проверяет данные и передает на кухню</p>
+			</div>
+		</div>
+		<div class="column small-24 medium-8">
+			<div class="stat-wrap">
+				<strong>Доставка</strong>
+				<p>Заказ принят, оператор проверяет данные и передает на кухню</p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="column small-24 text-center">
+		<br>
+			<h4>Последние заказы</h4>
+		<br>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="column medium-4 small-8">
+			<strong>#2131</strong>
+		</div>
+		<div class="column medium-5 hide-for-small-only">
+			<span>2 марта 2014</span>
+		</div>
+		<div class="column medium-5 small-8">
+			<span>Готовится</span>
+		</div>
+		<div class="column medium-5 hide-for-small-only">
+			<span>1105 <span class="rouble">q</span> — 2 товара</span>
+		</div>
+		<div class="column medium-5 small-8">
+		<form action="" class="designed-form">
+		<div class="input-group">
+			<div class="input-group-button">
+				<input type="submit" class="button" value="Просмотр">
+			</div>
+		</div>
+		</form>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="column medium-4 small-8">
+			<strong>#2131</strong>
+		</div>
+		<div class="column medium-5 hide-for-small-only">
+			<span>2 марта 2014</span>
+		</div>
+		<div class="column medium-5 small-8">
+			<span>Готовится</span>
+		</div>
+		<div class="column medium-5 hide-for-small-only">
+			<span>1105 <span class="rouble">q</span> — 2 товара</span>
+		</div>
+		<div class="column medium-5 small-8">
+		<form action="" class="designed-form">
+		<div class="input-group">
+			<div class="input-group-button">
+				<input type="submit" class="button" value="Просмотр">
+			</div>
+		</div>
+		</form>
+		</div>
+	</div>
+	<hr>
+	<div class="row">
+		<div class="column medium-4 small-8">
+			<strong>#2131</strong>
+		</div>
+		<div class="column medium-5 hide-for-small-only">
+			<span>2 марта 2014</span>
+		</div>
+		<div class="column medium-5 small-8">
+			<span>Готовится</span>
+		</div>
+		<div class="column medium-5 hide-for-small-only">
+			<span>1105 <span class="rouble">q</span> — 2 товара</span>
+		</div>
+		<div class="column medium-5 small-8">
+		<form action="" class="designed-form">
+		<div class="input-group">
+			<div class="input-group-button">
+				<input type="submit" class="button" value="Просмотр">
+			</div>
+		</div>
+		</form>
+		</div>
+	</div>
+	<hr>
+</div>
+//= template/footer.html
