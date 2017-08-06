@@ -1,4 +1,4 @@
-<h4>Project: <a href="https://mnaumenko90.github.io/OiShi/build/" target="_blank">Clinic</a></h4>
+<h4>Project: <a href="https://mnaumenko90.github.io/OiShi/build/" target="_blank">OiShi</a></h4>
 <ul>
   <li><a href="https://mnaumenko90.github.io/OiShi/build/akcii.html">акции</a></li>
   <li><a href="https://mnaumenko90.github.io/OiShi/build/basket.html">корзина</a></li>
